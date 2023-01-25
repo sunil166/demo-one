@@ -3,7 +3,7 @@ const assert = require("assert")
 
 async function example(){
 
-// launch the browser
+// launch the browsers
 let driver = await new Builder().forBrowser("firefox").build();
 //navigate to our application
 await driver.get("https://www.juniper.net/");
